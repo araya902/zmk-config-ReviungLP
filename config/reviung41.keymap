@@ -53,10 +53,10 @@
 // |   H  | RSE |  V  |  C  |  D  |  F  |   |  X  |     |     |     |     |     |
 //                      | LCTRL| LALT | SPACE | RGUI |TG DEFAULT|
                         bindings = <
-   &kp TAB &kp N1       &kp N2   &kp N3   &kp N4   &kp N5       &kp N6  &none  &none   &none   &none   &none
-   &kp S   &kp Q        &kp W    &kp E    &kp R    &kp Y        &kp B   &none  &none   &none   &none   &none
-   &kp H   &mo RAISE    &kp V    &kp C    &kp D    &kp F        &kp X   &none  &none   &none   &none   &none
-                                  &kp LCTRL   &kp LALT  &kp SPACE   &kp RGUI   &tog DEFAULT
+   &kp TAB &kp N1       &kp N2   &kp N3   &kp N4   &kp N5       &kp N6  &none     &none   &none   &none   &none
+   &kp S   &kp Q        &kp W    &kp E    &kp R    &kp Y        &kp B   &none     &none   &none   &none   &none
+   &kp H   &mo RAISE    &kp V    &kp C    &kp D    &kp F        &kp X   &kp RGUI  &none   &none   &none   &none
+                                  &kp LCTRL   &kp LALT  &kp SPACE   &trans   &trans
                         >;
                 };
 
